@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Formulário de Contato</h1>
+        <form action="">
+            <label for="nome" class="texto">Nome</label><br>
+            <input type="text" id="nome" class="input" placeholder="Seu nome" ><br><br>
+            <label for="sobrenome" class="texto">Sobrenome</label><br>
+            <input type="text" id="sobrenome" class="input" placeholder="Seu sobrenome"> <br><br>
+            <label for="email" class="texto">Email</label><br>
+            <input type="email" name="email" id="email" class="input" placeholder="email@host.com" required><br><br>
+            <label for="data" class="texto" >Data de nascimento</label><br>
+            <input type="date" name="data" id="data" class="input" placeholder="03/05/2007"><br><br>
+            <label for="lang" class="texto">Linguagem de programação favorita</label><br>
+            <select name="lang" id="lang">
+                <option value="lang">Escolha a linguagem</option>
+                <option value="lang">Java</option>
+                <option value="lang">Python</option>
+                <option value="lang">JavaScript</option>
+                <option value="lang">C++</option>
+                <option value="lang">CSS</option>
+                <option value="lang">Html</option>
+                <option value="lang">C#</option>
+                <option value="lang">SQL</option>
+                <option value="lang">PHP</option>
+                <option value="lang">Ruby</option>
+            </select><br><br>
+            <label for="mensagem" class="texto">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" cols="35" rows="10"></textarea><br>
+            <input type="submit" value="Enviar" >
+
+        </form>
+        
+    </fieldset>
+</body>
+</html>
