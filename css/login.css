@@ -1,0 +1,26 @@
+fieldset{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 100%;
+    background: rgba(0, 128, 0, 0.2)
+}
+input, button{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    border: none;
+}
+button{
+    background-color: rgb(0, 175, 0);
+}
+button:hover{
+    background-color: rgb(0, 131, 0);
+}
+label{
+    font-size: 30px;
+}
